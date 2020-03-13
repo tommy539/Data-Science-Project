@@ -1,5 +1,5 @@
 # Data-Science-Project
-# Content:
+# Content
 ## Caravan customer identification
 - Programming language: R
 - Data Science Elements: Data Visualisation, Data modelling, Regression modelling
