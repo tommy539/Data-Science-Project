@@ -1,3 +1,5 @@
 # Caravan customer identification
-# Programming language: R
-# Data visualisation, data modelling, linear regression
+### Programming language: R
+### Data science elements:
+###   Data visualisation, 
+###   Data modelling: logistic linear regression, random forest, KNN claasification
