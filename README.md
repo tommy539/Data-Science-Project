@@ -1,4 +1,4 @@
-# Data-Science-Project
+# Data Science Project
 # Content
 ## Caravan customer identification
 - Programming language: R
