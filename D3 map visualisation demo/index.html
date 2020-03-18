@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <script type="text/javascript" src="d3/d3.v3.js"></script> 
+     <style>
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align:center;
+                font-family:monospace;
+            }
+            
+            p {
+                text-align: center;
+                overflow: overlay;
+                position: relative;
+                
+            }
+    </style>
+        
+    </head>
+
+    <body style="background-color:lightgrey;">
+        
+        <p style="color:darkslategray;font-size: 30px;font-family: fantasy;text-align: center">FIT5147 D3 Assignment 3</p> 
+        <p style="color:darkslategray;font-size: 12px;font-family: fantasy;text-align: center">by Lam Wai Chun, Tommy</p> 
+        <p style="color:darkslategray;font-size: 15px;font-family:monospace;">Please choose the dataset below:</p>
+        
+        <form action="">
+          <input type="radio" name="dataset" value="data.json" onChange=statusChange(this.value)> data.json<br>
+          <input type="radio" name="dataset" value="data-02.json"onChange=statusChange(this.value)> data-02.json<br>
+        </form>
+        
+        <script src='try.js' svgid = 'svg1' ></script>
+        
+    </body>
+</html>     
