@@ -11,6 +11,7 @@ d3.json(dataset, function(mydata) {
 
    d3.select('svg').remove()
 
+
     var svg = d3.select('body').append('svg')
         .attr("width", width)
         .attr("height", height)
@@ -18,6 +19,15 @@ d3.json(dataset, function(mydata) {
         .style("background-color", 'lightyellow')
         .attr("align","center")
     ;
+    
+    svg.append('svg:image')
+        .attr({
+          'xlink:href': 'https://www.freevector.com/uploads/vector/preview/5961/FreeVector-USA-Map.jpg',  // can also add svg file here
+          x: 0,
+          y: -150,
+          width: width ,
+          height: height * 1.5
+        });
     var i,j;
     
 
@@ -120,7 +130,7 @@ d3.json(dataset, function(mydata) {
         
         d3.select(this)
             .attr('r', d.r*4)
-            .style('fill','orange')
+            .style('fill','green')
             .style('opacity',1);
         identifier = this.id
         
