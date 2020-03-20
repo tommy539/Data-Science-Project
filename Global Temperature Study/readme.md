@@ -1,6 +1,9 @@
 # Global Temperature Study
 ##### This is a visualisation project showing the change of global temperature and trend by Tableau.
 
+Data source: Climate Change: Earth Surface Temperature Data from Kaggle
+https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
+
 Online Tableau link: https://bit.ly/global-temperature-study-dashboard
 
 Dashboard preview:
