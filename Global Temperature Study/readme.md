@@ -2,7 +2,7 @@
 ##### This is a visualisation project showing the change of global temperature and trend by Tableau.
 
 Data source: 
-- Climate Change: Earth Surface Temperature Data from Kaggle
+- Kaggle: Climate Change: Earth Surface Temperature Data
 - https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
 
 
