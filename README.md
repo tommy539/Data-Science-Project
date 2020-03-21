@@ -13,5 +13,9 @@ This page includes the data science projects including forcasting, clustering, d
 - Data Science Elements: Data Visualisation, Data modelling, ELO modelling, Odds prediction
 
 ## [D3 visualisation demo](https://tommy539.github.io/D3-demo/)
-- Tools: Tableau
+- Tools: D3
 - Demostration of data visualisation by D3
+
+## [Global Temperature Study](https://github.com/tommy539/Data-Science-Project/tree/master/Global%20Temperature%20Study)
+- Tools: Tableau
+- Brief visualisation of global climate with tools of Tableau
