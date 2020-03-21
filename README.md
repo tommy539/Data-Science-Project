@@ -1,5 +1,8 @@
 # Data Science Project
-# Content
+This page includes the data science projects including forcasting, clustering, data visualisation, etc. 
+
+
+# Table of Contents
 ## Caravan customer identification
 - Programming language: R
 - Data Science Elements: Data Visualisation, Logistic modelling, KNN classifcation, Random Forest
