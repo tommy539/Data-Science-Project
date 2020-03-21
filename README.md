@@ -12,6 +12,6 @@ This page includes the data science projects including forcasting, clustering, d
 - Programming language: R
 - Data Science Elements: Data Visualisation, Data modelling, ELO modelling, Odds prediction
 
-## D3 visualisation demo
+## [D3 visualisation demo](https://tommy539.github.io/D3-demo/)
 - Tools: Tableau
 - Demostration of data visualisation by D3
