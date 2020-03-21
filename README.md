@@ -3,8 +3,7 @@ This page includes the data science projects including forcasting, clustering, d
 
 
 # Table of Contents
-## Caravan customer identification
-https://github.com/tommy539/Data-Science-Project/blob/master/Caravan%20customer%20identification/Caravan%20customer%20identification.ipynb
+## [Caravan customer identification]#https://github.com/tommy539/Data-Science-Project/blob/master/Caravan%20customer%20identification/Caravan%20customer%20identification.ipynb
 
 - Programming language: R
 - Data Science Elements: Data Visualisation, Logistic modelling, KNN classifcation, Random Forest
