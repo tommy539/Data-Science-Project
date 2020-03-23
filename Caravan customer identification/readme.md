@@ -1,7 +1,7 @@
 # Caravan customer identification
 Programming language: R
 Data science elements:
- * Data visualisation, 
+ * Data visualisation 
  * Data modelling: 
    * Logistic regression classification
    * Random forest
