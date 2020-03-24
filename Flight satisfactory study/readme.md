@@ -2,7 +2,7 @@
 
 Data exploration and visualisation with R-shiny dashboard
 
-This project is investigating the current air services situation, in terms of:
+This project investigates the current air services situation, in terms of:
 
 1. Rating of airlines and airports from passengers around the world
 
