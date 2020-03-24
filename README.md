@@ -1,6 +1,7 @@
 # Data Science Project
 This page includes the data science projects including forcasting, clustering, data visualisation, etc. 
-[Accompanying Blog Post on my website](https://tommylamsc.wixsite.com/tommylam)
+
+Accompanying Blog Post on [my website](https://tommylamsc.wixsite.com/tommylam)
 
 
 ## Table of Contents
