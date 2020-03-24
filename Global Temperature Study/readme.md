@@ -1,4 +1,4 @@
-# Global Temperature Study
+# Global Climate Study
 ##### This is a visualisation project showing the change of global temperature and trend by Tableau.
 
 Data source: 
