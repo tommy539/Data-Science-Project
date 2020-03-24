@@ -19,3 +19,7 @@ This page includes the data science projects including forcasting, clustering, d
 ### [Global Temperature Study](https://github.com/tommy539/Data-Science-Project/tree/master/Global%20Temperature%20Study)
 - Tools: Tableau
 - Brief visualisation of global climate with tools of Tableau
+
+### [Flight Satisfactory Study](https://github.com/tommy539/Data-Science-Project/tree/master/Flight%20satisfactory%20study)
+- Tools: R-Shiny
+- Story telling dashboard investigates the current air services situation
