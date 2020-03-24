@@ -1,4 +1,4 @@
-# FLIGHT SATISFACTORY STUDY
+# Flight satisfactory study
 
 Data exploration and visualisation with R-shiny dashboard
 
