@@ -1,4 +1,4 @@
-# World cup 2018 group stage odds prediction
+# World Cup 2018 Group Stage Prediction
 This model predicts the odds of matches in World Cup 2018 group stages by using the ELO model. The ELO model is developed by using the match data after World Cup 2014.
 
 
@@ -9,4 +9,5 @@ Language: R
 
 Methodologies: ELO model
 
+[Read the full report here](https://nbviewer.jupyter.org/gist/tommy539/60595e205ee03594042d654ab79a7994)
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/World%20Cup%202018%20prediction/ELO.png "ELO ranking")
