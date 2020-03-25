@@ -2,6 +2,7 @@
 
 Data exploration and visualisation with R-shiny interactive dashboard
 
+View the interactive story-telling dashboard: https://tommylam.shinyapps.io/Flight_Satisfactory_Study/
 
 ### Objectives
 
@@ -22,4 +23,4 @@ Skytrax Reviews Rating: www.kaggle.com/austinpeck/skytrax-reviews-dataset-august
 
 ### Tools: R-Shiny
 
-### Link to dashboard: https://tommylam.shinyapps.io/Flight_Satisfactory_Study/
+
