@@ -10,4 +10,6 @@ Language: R
 Methodologies: ELO model
 
 [Read the full report here](https://nbviewer.jupyter.org/gist/tommy539/60595e205ee03594042d654ab79a7994)
+
+Final ELO ranking according to my model:
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/World%20Cup%202018%20prediction/ELO.png "ELO ranking")
