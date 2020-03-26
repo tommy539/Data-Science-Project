@@ -1,15 +1,19 @@
 # World Cup 2018 Group Stage Prediction
-This model predicts the odds of matches in World Cup 2018 group stages by using the ELO model. The ELO model is developed by using the match data after World Cup 2014. 
+Objective
+
+This was a Datathon project I participated in 2018 before the FIFA World Cup. The objective of this project was to predict the odds (probability) of each game in the group stage. There were 32 teams and 48 matches in the FIFA World Cup 2018 group stage. The output is the win, draw and lose probabilities of each game. 
+
+
+Data Source
+
+The dataset is given by the host, Betfair, with all the international match records from 2000 to 2018. 
+
+
+Methodology
+
+This project is written in R, using the ELO rating system, which is widely used in multiplayer competitions including sports, video games, board games, etc., to calculate the ELO score of every teams. The odds for each match are then calculated according to the ELO score of two teams. For example, a team with higher ELO score (stronger) is more likely to win the game when the opponent is with a lower ELO score (weaker).
 
 More about ELO rating system: https://www.gautamnarula.com/rating/
-
-
-This is a Datathon project I participated in 2018 before the FIFA World Cup. The objective of this project is to predict the odds (probability) of win/draw/lose of each game in the group stage. 
-
-
-- Language: R
-
-- Methodologies: ELO model
 
 [Read the full report here](https://nbviewer.jupyter.org/gist/tommy539/60595e205ee03594042d654ab79a7994)
 
