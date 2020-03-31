@@ -10,3 +10,9 @@ This project firstly provides a way to parse read these notorious pdf files and 
 ## Data
 Data for this study is one of the resources from my master degree at Monash University. The data is a huge set of resume in pdf format, same as those we have seen in our daily live or online. Therefore, any resumes can also be used in this project.
 This project is useful for those who need to handle a huge amount of text information such as HR handling more than 200 resumes, researchers studying linguistics, artificial intelligence to learn languages and so on.
+
+## Result
+
+#### [Read the full report here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29.ipynb)
+After parsing the resumes in pdf format, the result of top monogram mentioned:
+![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/Monogram_chart.png "Top monogram mentioned")
