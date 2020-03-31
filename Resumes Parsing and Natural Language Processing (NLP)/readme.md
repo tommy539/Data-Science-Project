@@ -14,5 +14,18 @@ This project is useful for those who need to handle a huge amount of text inform
 ## Result
 
 #### [Read the full report here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29.ipynb)
-After parsing the resumes in pdf format, the result of top monogram mentioned:
+### Monograms
+After parsing the resumes in pdf format, the result of top monograms mentioned:
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/Monogram_chart.png "Top monogram mentioned")
+Among the top mentions,'university','experience' and 'skiils' are expected since they are the categories that we usually put in a resume.
+
+Stemming the monograms will give better result to understand the text content:
+![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/stemmed_monogram.png "Stemmed monogram mentioned")
+After stemming, we can observe that 95% of the resumes include the keywords related to manage and finance (excluding experience/university/education).
+
+### Bigrams
+Bigram is a sequence of words with adjacent elements from sentences or tokens. For example, a sequence of 'extensive financial experience' will become 'extensive financial' and 'financial experience'. We believe the combination of words such as bigram or more (we called n-gram) gives more insights than just tokens (unigram).
+
+From the following bar chart showing the occurance of bigrams, it gives much more information of the documents than the monogram chart.
+We can observe that these 850 resumes are highly related to Hong Kong and they are mostly related to financial business as those in the top mentions are financial terms.
+![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/bigram_chart.png "Bigram chart")
