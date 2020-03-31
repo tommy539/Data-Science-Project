@@ -28,12 +28,12 @@ After stemming, we can observe that 95% of the resumes include the keywords rela
 ### Bigrams
 Bigram is a sequence of words with adjacent elements from sentences or tokens. For example, a sequence of 'extensive financial experience' will become 'extensive financial' and 'financial experience'. We believe the combination of words such as bigram or more (we called n-gram) gives more insights than just tokens (unigram).
 
-From the following bar chart showing the occurance of bigrams, it gives much more information of the documents than the monogram chart.
+From the following bar chart showing the occurence of bigrams, it gives much more information of the documents than the monogram chart.
 We can observe that these 850 resumes are highly related to Hong Kong and they are mostly related to financial business as those in the top mentions are financial terms.
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/bigram_chart.png "Bigram chart")
 
 ### Word Cloud
-Word cloud visualises the text with larger size with high occurances and locates the words with similar pattern together such as the 'hong'+'kong' and 'financial'+'statement' in the following word cloud.
+Word cloud visualises the text with larger size with high occurences and locates the words with similar pattern together such as the 'hong'+'kong' and 'financial'+'statement' in the following word cloud.
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/wordcloud.png "wordcloud")
 
 ## Summary
