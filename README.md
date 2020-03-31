@@ -16,7 +16,7 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 - Programming language: R
 - Data Science Elements: Data Visualisation, Data modelling, ELO modelling, Odds prediction
 
- #### [Caravan customer identification](https://github.com/tommy539/Data-Science-Project/tree/master/Caravan%20customer%20identification)
+ #### [Caravan Customer Identification](https://github.com/tommy539/Data-Science-Project/tree/master/Caravan%20customer%20identification)
 
 - Programming language: R
 - Data Science Elements: Data Exploration, Logistic regression, KNN classifcation, Random Forest
