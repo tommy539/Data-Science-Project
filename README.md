@@ -8,11 +8,6 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ### Data Analytic
 
- ### [Caravan customer identification](https://github.com/tommy539/Data-Science-Project/tree/master/Caravan%20customer%20identification)
-
-- Programming language: R
-- Data Science Elements: Data Visualisation, Logistic modelling, KNN classifcation, Random Forest
-
  ### [World Cup ELO Models](https://github.com/tommy539/Data-Science-Project/blob/master/World%20Cup%202018%20prediction/ELO%20model%20for%20World%20Cup%202018%20odds%20prediction.ipynb)
 - Programming language: R
 - Data Science Elements: Data Visualisation, Data modelling, ELO modelling, Odds prediction
@@ -20,6 +15,11 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 ### [Resumes Parsing and Natural Language Processing (NLP)](https://github.com/tommy539/Data-Science-Project/tree/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP))
 - Programming language: Python
 - Data Science Elements: PDF parsing, Natrual Language Processing (NLP)
+
+ ### [Caravan customer identification](https://github.com/tommy539/Data-Science-Project/tree/master/Caravan%20customer%20identification)
+
+- Programming language: R
+- Data Science Elements: Data Visualisation, Logistic modelling, KNN classifcation, Random Forest
 
 
 ### Data Visualisation
