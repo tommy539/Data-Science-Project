@@ -22,6 +22,7 @@ Among the top mentions,'university','experience' and 'skiils' are expected since
 
 * Stemming the monograms will give better result to understand the text content:
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/stemmed_monogram.png "Stemmed monogram mentioned")
+
 After stemming, we can observe that 95% of the resumes include the keywords related to manage and finance (excluding experience/university/education).
 
 ### Bigrams
