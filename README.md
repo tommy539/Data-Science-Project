@@ -8,7 +8,7 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ### Data Analytic
 
- ### [Caravan customer identification](https://github.com/tommy539/Data-Science-Project/blob/master/Caravan%20customer%20identification/Caravan%20customer%20identification.ipynb)
+ ### [Caravan customer identification](https://github.com/tommy539/Data-Science-Project/tree/master/Caravan%20customer%20identification)
 
 - Programming language: R
 - Data Science Elements: Data Visualisation, Logistic modelling, KNN classifcation, Random Forest
@@ -24,15 +24,16 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ### Data Visualisation
 
- ### [D3 visualisation demo](https://tommy539.github.io/D3-demo/)
-- Tools: D3
-- Demostration of data visualisation by D3
-
+ ### [Flight Satisfactory Study](https://github.com/tommy539/Data-Science-Project/tree/master/Flight%20satisfactory%20study)
+- Tools: R-Shiny
+- Story telling dashboard investigates the current air services situation
 
  ### [Global Temperature Study](https://github.com/tommy539/Data-Science-Project/tree/master/Global%20Temperature%20Study)
 - Tools: Tableau
 - Brief visualisation of global climate with Tableau
 
- ### [Flight Satisfactory Study](https://github.com/tommy539/Data-Science-Project/tree/master/Flight%20satisfactory%20study)
-- Tools: R-Shiny
-- Story telling dashboard investigates the current air services situation
+ ### [D3 visualisation demo](https://tommy539.github.io/D3-demo/)
+- Tools: D3
+- Demostration of data visualisation by D3
+
+
