@@ -17,6 +17,7 @@ This project is useful for those who need to handle a huge amount of text inform
 ### Monograms
 After parsing the resumes in pdf format, the result of top monograms mentioned:
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/Monogram_chart.png "Top monogram mentioned")
+
 Among the top mentions,'university','experience' and 'skiils' are expected since they are the categories that we usually put in a resume.
 
 Stemming the monograms will give better result to understand the text content:
