@@ -17,12 +17,17 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 - Programming language: R
 - Data Science Elements: Data Visualisation, Data modelling, ELO modelling, Odds prediction
 
+### [Resumes Parsing and Natural Language Processing (NLP)](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20%28NLP%29.ipynb)
+- Programming language: Python
+- Data Science Elements: PDF parsing, Natrual Language Processing (NLP)
+
 
 ### Data Visualisation
 
  ### [D3 visualisation demo](https://tommy539.github.io/D3-demo/)
 - Tools: D3
 - Demostration of data visualisation by D3
+
 
  ### [Global Temperature Study](https://github.com/tommy539/Data-Science-Project/tree/master/Global%20Temperature%20Study)
 - Tools: Tableau
