@@ -1,7 +1,6 @@
 # Resumes Parsing and Natural Language Processing (NLP)
-Aurthor: Tommy Lam
-
-Date: 15 Mar 2020
+- Aurthor: Tommy Lam
+- Date: 15 Mar 2020
 
 PDF, one of the famous formats of documents, at the same time it is also a nightmare to us while we want to convert them into text format. They look like usual documents when we read them. However, they feel like pictures when we need to edit or convert them into text.
 
