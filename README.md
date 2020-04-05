@@ -24,7 +24,7 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ### Data Visualisation
 
- ####[Coronvirus Live Update](https://tommy539.github.io/Coronavirus-Live-Update/)
+ #### [Coronvirus Live Update](https://tommy539.github.io/Coronavirus-Live-Update/)
  - Tools: Tableau
  - Dashboard displaying the latest situation of COVID-19.
 
