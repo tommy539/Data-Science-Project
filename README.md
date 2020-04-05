@@ -6,7 +6,7 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ## Table of Contents
 
-### Data Analytic
+### Data Analytics
 
  #### [Resumes Parsing and Natural Language Processing (NLP)](https://github.com/tommy539/Data-Science-Project/tree/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP))
 - Programming language: Python
@@ -23,6 +23,10 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 
 ### Data Visualisation
+
+ ####[Coronvirus Live Update](https://tommy539.github.io/Coronavirus-Live-Update/)
+ - Tools: Tableau
+ - Dashboard displaying the latest situation of COVID-19.
 
  #### [Flight Satisfactory Study](https://github.com/tommy539/Data-Science-Project/tree/master/Flight%20satisfactory%20study)
 - Tools: R-Shiny
