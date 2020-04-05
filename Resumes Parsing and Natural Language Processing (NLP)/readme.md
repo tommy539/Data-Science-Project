@@ -12,7 +12,7 @@ This project firstly provides a way to parse read these notorious pdf files and 
 Data for this study is one of the resources from my master degree at Monash University. The data is a huge set of resume in pdf format, same as those we have seen in our daily live or online. Therefore, any resumes can also be used in this project.
 This project is useful for those who need to handle a huge amount of text information such as HR handling more than 200 resumes, researchers studying linguistics, artificial intelligence to learn languages and so on.
 
-## Result
+## Exploration
 ### Monograms
 * After parsing the resumes in pdf format, the result of top monograms mentioned:
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/Monogram_chart.png "Top monogram mentioned")
@@ -35,11 +35,47 @@ We can observe that these 850 resumes are highly related to Hong Kong and they a
 Word cloud visualises the text with larger size with high occurences and locates the words with similar pattern together such as the 'hong'+'kong' and 'financial'+'statement' in the following word cloud.
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/wordcloud.png "wordcloud")
 
+## Applications
+### Criteria Filtering
+Since there are 850+ resumes, we can develop a filter to select some of them with the criteria we need.
+
+For example, I would like to find out those with experience in finance and marketing in Australia, with position at least manager level and with a master's degree. We can launch a filter based on the keywords as followed:
+criteria = ['finance','marketing','australia','manager','master']
+
+In this project, I developed a function to perform this filtering process. By this function, we are able to search through the documents and return the name of documents which carry the criteria we are looking for. We can also input the percentage match of criteria before we perform the filtering such that we are able to use this function to find out for example 80% of the criteria I want. Here is the example:
+
+Input:
+```
+filtering_documents(keywords,100)
+filtering_documents(keywords,90)
+```
+Output:
+```
+100% match:
+resume_(579).pdf
+-------------------
+90% match:
+resume_(19).pdf
+resume_(43).pdf
+resume_(579).pdf
+resume_(765).pdf
+```
+### Unsupervised classification: K-mean Clustering
+K-mean clustering is one of the famous classification methods to partition the data into K clusters based on their similarities among the data. We will use the top 50 frequent stemmed tokens as the features to perform clustering. 
+
+Before we run the K-mean algorithm, we will first create a DTM (document-term matrix) that describes the frequency of terms that occur in a collection of documents. In the DTM, the row corresponds to documents in our collection and the column corresponds to the features terms (Top 50 frequent stemmed tokens in this case).
+
+Based on the DTM, we can create a TF-IDF (short for term frequency-Inverse document frequency) which is a weighting conversion of DTM such that it can reflect the the importance of word in a more effective way. TF-IDF is common used by search engines, stop-words filtering, text summarisation and classification.
+
+Result
+We run the K-mean clustering to partition the resumes into two groups. 
+
+![text](https://github.com/tommy539/Data-Science-Project/blob/master/Resumes%20Parsing%20and%20Natural%20Language%20Processing%20(NLP)/graphs/cluster.png "cluster")
+
+We can see that the candidates in Cluster 1 possess more skills and experience in accounting and audit aspect; while those in Cluster 2 are more related to business, team and management, relating to senior management position with handling teams situation.
+
 ## Summary
 * By using PDFminer, we can parse the pdf file into text contents. 
 * With the basic Natural Language Processing, the text contents are further tokenised and formed bigrams.
-* Word cloud can be used to visualise the text pattern effectively.
-
-## Further
-1. We can perform feature selection based on the tokenised documents by filtering the keywords we want and filter the documents we want.
-2. Based on the tokens in each document, we can perform unsupervised classification to divide the documents into different clusters.
+* We can further develop different types of application based on the NLP we have performed on the text data.
+* K-mean clustering can partition the resumes into different clusters. Each clusters may carry different characteristics based the input we used in the model.
