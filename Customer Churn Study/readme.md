@@ -2,8 +2,10 @@
 Customer Churn, also known as customer attrition and customer turnover, refers to the loss of the customer.
 Many competitive contract-based services such as internet and telephone providers, banking, TV and insurance often use this analysis to study and predict the behaviour of customers such that they can develop strategies to retain their customers.
 
+
 ## Objective
 This project studies the customer churn based on the services they have signed up, customer account information and their demographic. The first objective of this project is to investigate which factors give the most impact on customer churn. The second objective is to predict whether the customer would quit the service based on various models.
+
 
 ## Data Source
 The dataset used in this project is from Kaggle. The dataset includes 4 types of information:
@@ -27,9 +29,11 @@ Boxplot is one of the good approaches to understand numeric data since it provid
 Now let's produce charts to visualise the data. Since most of the categorical values contain only a few distinct values, we will use donut charts to visualise their patterns.
 
 The variable SeniorCitizen appears to be a numeric column while we check the summary table above. However, it only consists of two values, 0 and 1, identifying whether the customer is a senior citizen or not. Therefore, it actually is a categorical variable and can be visualised by a donut chart.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/donut.png)
 The following donut charts show the pattern of the rest of the categorical variables. 
 We can see the gender split is half-half, similar to the partnership. For the contract status, more than half of the customers are in Month to month contract, which is considered as a high correlated factor driving customer churn in the next part.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/donut2.png)
 
 ### Correlation Matrix
@@ -39,6 +43,7 @@ One of the method to visualise the correlation matrix is by using a heatmap. The
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/correlation.png)
 
 However, it is not an easy task to read the correlation heatmap when the amount of variables is considerably large. Instead, we can simply look at the top correlated variables to our target variable, 'Churn' in a bar chart.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/corr-bar.png)
 
 We can observe that the top factor relating to Churning is when the customer is under a month to month contract. This is understandable since contracts in month to month have the highest flexibility hence they are easier for customers to turn down and switch to other providers.
@@ -49,6 +54,7 @@ The second relating factor would be 'tenure', which is representing the number o
 ### Logistic Regression
 The first predictive model we use is logistic regression. Logistic regression is trained in a similar way as linear regression, using the factors as input in a regression equation to calculate the output (Output ~ factor_1 + factor_2 + ...).
 However, we will pass the output from the regression equation into a sigmoid function, which makes the result bounds between 0 to 1. This allows us to perform classification when we set a boundary so that all values below the boundary are categorised as 0 and the rest will be as 1.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/LR-result.png)
 
 #### Result
@@ -56,11 +62,13 @@ Logistic regression gives 80% accuracy on testing data.
 
 ### SVM (Support Vector Machines)
 The basic idea of Support Vector Machines is to find an optimum hyperplane to divide the dataset into two classes, as illustrated by the picture below.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/svm-demo.png)
 
 By default, a linear hyperplane is used to divide the dataset. However, in some complicated dataset, other forms of hyperplane may be required such as polynomial hyperplane. In those cases we will use other kernels to train the model, for example sigmoid, rbf, polynomial, etc.
 
 In this project I will use four different kernels to train the model. The result is shown as below.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/SVC-result.png)
 
 The model spent most of the time to train the polynomial hyperplane as it carries a higher complexity. However, we can see that the SVM with linear hyperplane gives the highest testing accuracy, which indicates that the dataset itself is not structured in high complexity.
@@ -69,9 +77,11 @@ The model spent most of the time to train the polynomial hyperplane as it carrie
 KNN is one of the famous non-parametric algorithm, which may not require any parameters to build the algorithm. It focuses on the feature similarity, which aims to find out the most similar data to perform classification or regression. 
 For a simple example, if I would like to make a decision based on my body characteristics. KNN algorithm will first find out a few people with similar characteristics with me (height, weight, gender,...) and base on their decisions to predict my decision.
 The image below illustrate how can we find the nearest neighbors and categorise the new item (star) as class B as two of its neighbor are in Class B.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/KNN-demo.png)
 
 By using different nearest neighbors in the KNN algorithm, we can find the best value to produce the largest testing accuracy.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/KNN-performance.png)
 
 This best K value to predict customer churn is 11, with testing accuracy 79.7%
@@ -80,6 +90,7 @@ This best K value to predict customer churn is 11, with testing accuracy 79.7%
 A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
 The following part investigates how the maximum depth limitations affect the training and testing performance and hence suggests the best setting for the model.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/DT-performance.png)
 
 #### Draw the tree
@@ -91,13 +102,16 @@ We can also visualise the tree by using export_graphviz in sklearn library.
 ### Random Forest
 Random forest is built by repeating the decision tree algorithm but with random bags of features selected in each of the trees instead of all features used during the decision tree algorithm. In this way, we can the decision tree overfitting by only of the key features.
 Similar to the decision tree, we can set different values or maximum depth and find the optimum depth out.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/RF-performance.png)
 
 
 ## Model Comparison
 Let's summarise all the models we have developed, together with their training and testing accuracy.
+
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/Model-performance.png)
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/Model_comparision.png)
+
 Random Forest gives the best performance to predict customer churn among all models with 80.6%.
 
 ## Conclusion
