@@ -31,6 +31,7 @@ Now let's produce charts to visualise the data. Since most of the categorical va
 The variable SeniorCitizen appears to be a numeric column while we check the summary table above. However, it only consists of two values, 0 and 1, identifying whether the customer is a senior citizen or not. Therefore, it actually is a categorical variable and can be visualised by a donut chart.
 
 ![text](https://github.com/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/images/donut.png)
+
 The following donut charts show the pattern of the rest of the categorical variables. 
 We can see the gender split is half-half, similar to the partnership. For the contract status, more than half of the customers are in Month to month contract, which is considered as a high correlated factor driving customer churn in the next part.
 
