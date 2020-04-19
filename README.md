@@ -1,5 +1,5 @@
 # Data Science Project
-This page includes the data science projects including forcasting, clustering, data visualisation, etc. 
+This page contains some of the data science projects I have done during and after my master degree of data science including forcasting, clustering, classification, data visualisation, etc. 
 
 Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
