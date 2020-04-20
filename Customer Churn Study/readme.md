@@ -15,7 +15,7 @@ Customer account information including contract status, payment method, monthly 
 
 ##### Programming environment: Python
 
-##### [Read the full report with codings here](http)
+##### [Read the full report with codings here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Customer%20Churn%20Study/Customer%20Churn%20Study.ipynb)
 
 ## Exploratory Data Analysis
 Exploratory data analysis (EDA) is an approach to analysing data sets to summarise their main characteristics with visual methods. It is generally used as a primary mean to research and investigate the dataset, before performing advanced modelling.
