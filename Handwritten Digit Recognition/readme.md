@@ -8,7 +8,7 @@ In the first section, I would use a simpler dataset from sklearn with a low reso
 In the second section, I would apply the K-nearest Neighbor model to train a more complicated dataset, the famous MNIST dataset, with a higher resolution (28x28 pixel) and larger data size (n=70000). The model gives a promising result with a 97% accuracy on testing data.
 
 ##### Programming language: Python
-##### [Read the full report with codings here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition/Handwritten_Digit_Recognition.ipynb)
+##### [Read the full report with codings here](https://github.com/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition/Handwritten_Digit_Recognition.ipynb)
 
 # Section 1: Simple Digit dataset
 This section used a simple dataset with 8x8 pixel. Logistic regression and K-nearest Neighbor classification are used to predict the handwritten digits.
