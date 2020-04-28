@@ -5,6 +5,11 @@ Although KNN gives a great result on the digit prediction, it requires a long ru
 
 In this project, I would further investigate the method to read handwritten digits in deep learning - Convolutional Neural Network.
 
+
+**Programming language: Python**
+**[Read the full report with codings here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/Handwritten_Digit_Recognition_II_Neural_Network_Model.ipynb)**
+
+
 ## Convolutional Neural Network 
 Convolutional Neural Network (CNN) is one type of neural network models. It is proven strong to deal with image recognition and classification. It expects input in the form of the matrix, therefore images are suitable in this case. It firstly zooms the images into a smaller level - we called this step Convolution. Between each zooming, some actions can be done to extract features from the sub-images during each zooming - this is called Pooling. Hence, these zoomed sub-images are then connected to form a neural network to perform the optimization to find the best parameters to predict/ classify the images. The following picture illustrates the basic idea of Convolutional Neural Network model. 
 
