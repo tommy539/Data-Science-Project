@@ -8,6 +8,10 @@ Accompanying Blog Post on [my website](https://tommylamwc.wixsite.com/tommylam).
 
 ### Data Analytics
 
+ #### [Handwritten Digit Recognition II - Neural Network Model](https://github.com/tommy539/Data-Science-Project/tree/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model)
+- Programming language: Python
+- Data Science Elements: Data Classification, Convolutional Neural Network
+
  #### [Handwritten Digit Recognition](https://github.com/tommy539/Data-Science-Project/tree/master/Handwritten%20Digit%20Recognition)
 - Programming language: Python
 - Data Science Elements: Data Classification, KNN, Logistic regression
