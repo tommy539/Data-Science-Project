@@ -7,7 +7,8 @@ In this project, I would further investigate the method to read handwritten digi
 
 ## Convolutional Neural Network 
 Convolutional Neural Network (CNN) is one type of neural network models. It is proven strong to deal with image recognition and classification. It expects input in the form of the matrix, therefore images are suitable in this case. It firstly zooms the images into a smaller level - we called this step Convolution. Between each zooming, some actions can be done to extract features from the sub-images during each zooming - this is called Pooling. Hence, these zoomed sub-images are then connected to form a neural network to perform the optimization to find the best parameters to predict/ classify the images. The following picture illustrates the basic idea of Convolutional Neural Network model. 
-![CNN illustration](http://www.wildml.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-07-at-7.26.20-AM.png)
+
+![CNN illustration](https://github.com/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/images/CNN-explain.png)
 
 # Data Loading and preprocessing
 Keras library also contains the mnist handwritten digits dataset so we can easily import by keras.
@@ -16,7 +17,7 @@ The data in Keras library contains 70000 digits with labels of digits that they 
 
 Let's have a look of some of the digits.
 
-![digits]()
+![digits](https://github.com/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/images/digits.png)
 
 Before starting the CNN model, the dataset needs to be restructured for the model. They will be reshaped in from (28x28) to (28x28x1) where one is representing the greyscale of their colour.
 
@@ -35,13 +36,13 @@ To illustrate the CNN model, I will use a 3-layer CNN model.
 
 With around 45 mins training time, the Convolutional Neural Network model gives 98.7% on validation data. The graph below also shows the accuracy and loss during the model training.
 
-![CNN_result]()
+![CNN_result](https://github.com/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/images/CNN-performance.png)
 
 So now, we can use this trained CNN model to test our data. It takes around 8 seconds to read through 10000 digits with 98.7% accuracy!
 
 There are 133 among 10000 testing data are classified into wrong classes. Let's take a look at those wrongly classified images and see if they are reasonable.
 
-![wrong]()
+![wrong](https://github.com/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/images/wrong.png)
 
 # Summary
 Convolution Neural Network model is a strong model to handle images data. It can read the handwritten digits with a promising 98.7% accuracy, which is higher than Logistic regression and K-nearest neighbour classification from the previous project.
