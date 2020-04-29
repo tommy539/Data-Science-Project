@@ -7,6 +7,7 @@ In this project, I would further investigate the method to read handwritten digi
 
 
 **Programming language: Python**
+
 **[Read the full report with codings here](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Handwritten%20Digit%20Recognition%20II%20-%20Neural%20Network%20Model/Handwritten_Digit_Recognition_II_Neural_Network_Model.ipynb)**
 
 
