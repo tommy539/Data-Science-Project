@@ -12,10 +12,12 @@ Programming language: R
 Programming language: Python
 
 
-Data science elements:
+
+#### Data science elements:
  * Data visualisation 
  * Data modelling: 
    * Logistic regression classification
    * Random forest
    * KNN claasification
+   * Deep Learning
 
