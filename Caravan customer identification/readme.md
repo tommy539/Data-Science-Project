@@ -2,6 +2,8 @@
 
 This study targets caravan customer identification. The study begins with data exploration and followed by model analysis to predict potential customers.
 
+There are two reports available for this project:
+
 #### [EDA and basic models](https://nbviewer.jupyter.org/github/tommy539/Data-Science-Project/blob/master/Caravan%20customer%20identification/Caravan%20customer%20identification.ipynb)
 
 Programming language: R
